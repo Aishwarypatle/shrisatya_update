@@ -11,7 +11,7 @@ export default function Example() {
         <Disclosure as="nav" className="header bg-white fixed-top">
             {({ open }) => (
                 <>
-                    <div className="d-flex relative flex h-25  p-4" style={{justifyContent:"space-between" ,backgroundColor:"#4D455D"}} >
+                    <div className="d-flex relative flex h-25  p-4" style={{justifyContent:"space-between" ,backgroundColor:"#3E54AC"}} >
                        
 
                         <div className="flex navbr pt-2">
@@ -48,7 +48,7 @@ export default function Example() {
                             <nav id="navbar" className="navbar">
                                 <ul>
                                     <li>
-                                        <NavLink
+                                        <NavLink style={{marginLeft:"25px"}}
                                             to="/"
                                             className="nav-link scrollto font-myFont"
                                             href="#home"

@@ -8,7 +8,7 @@ const Footer = () => {
             {/* <div>
                 <img style={{ width: "100%"}} src="Images/shrisatya8.jpeg"/>
             </div> */}
-            <footer style={{"backgroundColor": '#4D455D', paddingTop: 100}} class="relative bg-gray-100 pb-6">
+            <footer style={{"backgroundColor": '#3E54AC', paddingTop: 100}} class="relative bg-gray-100 pb-6">
                 <div class="container mx-auto px-4">
                     <div class="d-flex flex-wrap text-left lg:text-left">
                         <div className="w-full lg:w-3/12 px-4 xs:hidden">

@@ -4,3 +4,8 @@
 .logo{
     border-radius: 10px;
 }
+.nav-link:hover{
+    background-color: #ECF2FF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

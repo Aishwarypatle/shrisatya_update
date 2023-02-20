@@ -2,6 +2,7 @@ import React from "react";
 import ReactCardSlider from 'react-card-slider-component';
 // import FontAwesomeIcon from 'fontawesome'
 import { Link } from 'react-router-dom';
+import './features.css'
 
 const Features = () => {
     // const slides = [
@@ -69,13 +70,14 @@ const Features = () => {
 
             <section style={{ "background": "", paddingTop: 100, paddingBottom: 100 }} class="mb-5 lg:pt-[120px] bg-[#F3F4F6]">
                 <div class="container">
-                    <div class="flex flex-wrap -mx-4">
+                    <div class="d-flex flex-wrap -mx-4 p-3">
                         <div class="rounded-lg w-full md:w-1/2 xl:w-1/4 px-4">
-                            <div class="home-cards bg-white rounded-lg overflow-hidden">
+                            <div class="home-cards bg-white rounded">
                                 <img
                                     src="Images/deposit-scheme.png"
                                     alt="image"
                                     class="w-full"
+                                    style={{height:"200px",width:"200px"}}
                                 />
                                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
@@ -123,6 +125,7 @@ const Features = () => {
                                     src={"Images/loan-scheme.jpg"}
                                     alt="image"
                                     class="w-full"
+                                    style={{height:"200px",width:"250px"}}
                                 />
                                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
@@ -174,6 +177,7 @@ const Features = () => {
                                     src={"Images/bank-account.jpg"}
                                     alt="image"
                                     class="w-full"
+                                    style={{height:"200px",width:"250px"}}
                                 />
                                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
@@ -225,6 +229,7 @@ const Features = () => {
                                     src="Images/internet-banking.png"
                                     alt="image"
                                     class="w-full"
+                                    style={{height:"180px",width:"250px"}}
                                 />
                                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
