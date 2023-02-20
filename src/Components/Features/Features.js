@@ -496,7 +496,7 @@ const Features = () => {
                         </p>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 py-8 ">
-                        <img  style={{ height: "100%", margin: "auto" }} src="Images/satya 4.png"></img>
+                        <img  style={{ height: "500px",width:"700px", margin: "auto" }} src="Images/satya 4.png"></img>
                     </div>
                 </div>
             </section>
