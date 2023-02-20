@@ -22,7 +22,7 @@ const Footer = () => {
                                 SHRISATYA MULTIPURPOSE NIDHI LID.
                             </h3>
                             <h4 class="text-3xl  text-white font-myFont py-1">
-                            व्यवहार विश्वासाचा, व्यवहार मैत्रीचा
+                            व्यवहार विश्वासाचा, व्यवहार मित्राचा
                             </h4>
                             {/* <h5 class="text-lg mt-0 mb-2 text-white font-myFont py-1">
                                 Find us on any of these platforms, we respond

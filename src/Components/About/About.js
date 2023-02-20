@@ -64,7 +64,7 @@ const About = () => {
                         </ul> */}
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <img className="py-5" style={{ height: "100%", margin: "auto" }} src="Images/shrisatya-banner.jpeg"></img>
+                        <img className="py-5" style={{ height: "80%",width:"750px", margin: "auto" }} src="Images/shrisatya-banner.jpeg"></img>
                     </div>
                 </div>
 
