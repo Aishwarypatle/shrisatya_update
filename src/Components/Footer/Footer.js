@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './footer.css'
 
 const Footer = () => {
     return (
@@ -7,9 +8,9 @@ const Footer = () => {
             {/* <div>
                 <img style={{ width: "100%"}} src="Images/shrisatya8.jpeg"/>
             </div> */}
-            <footer style={{"backgroundColor": "rgba(30, 58, 138)", paddingTop: 100}} class="relative bg-gray-100 pb-6">
+            <footer style={{"backgroundColor": '#4D455D', paddingTop: 100}} class="relative bg-gray-100 pb-6">
                 <div class="container mx-auto px-4">
-                    <div class="flex flex-wrap text-left lg:text-left">
+                    <div class="d-flex flex-wrap text-left lg:text-left">
                         <div className="w-full lg:w-3/12 px-4 xs:hidden">
                             <img style={{height: "200px"}} src="Images/logo1.png"></img>
                         </div>
@@ -28,8 +29,8 @@ const Footer = () => {
                                 1-2 business days.
                             </h5> */}
                         </div>
-                        <div class="w-full lg:w-5/12 px-4">
-                            <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-5/12 px-4 text-light">
+                            <div class="d-flex flex-wrap items-top mb-6">
                                 <div class="w-1/2 lg:w-4/12 px-4 ml-auto">
                                     <span class="block uppercase text-white text-sm font-semibold pb-6">
                                         Services
@@ -38,7 +39,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/service"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#services"
                                             >
                                                 RTGS/NEFT
@@ -47,7 +48,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/locker"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#services"
                                             >
                                                 Locker
@@ -56,7 +57,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/sms"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#services"
                                             >
                                                 SMS Banking
@@ -65,7 +66,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/abps"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#services"
                                             >
                                                 APBS
@@ -74,7 +75,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/anybranch"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#services"
                                             >
                                                 Any Branch Banking
@@ -90,7 +91,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/ifsccode"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#quicklinks"
                                             >
                                                 IFSC Code
@@ -99,7 +100,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/rateofinterest"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#quicklinks"
                                             >
                                                 Rate Of Interest
@@ -108,7 +109,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/bankholidays"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#quicklinks"
                                             >
                                                 Bank Holidays
@@ -117,7 +118,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/kycnorms"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#quicklinks"
                                             >
                                                 KYC Norms
@@ -126,7 +127,7 @@ const Footer = () => {
                                         <li>
                                             <NavLink
                                                 to="/complaint"
-                                                className="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                className="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="#quicklinks"
                                             >
                                                 Complaint Regarding to
@@ -142,7 +143,7 @@ const Footer = () => {
                                     <ul class="list-unstyled">
                                         <li>
                                             <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                class="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="https://www.facebook.com/profile.php?id=100089145458518&mibextid=ZbWKwL"
                                                 rel="noopener noreferrer"
                                                 target="_blank"
@@ -153,7 +154,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                class="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="https://twitter.com/shrisatyaindia?t=-JDNVBmPBht6Li4o0aq8LA&s=08"
                                             >
                                                 <i className="fab fa-twitter"></i>{" "}
@@ -162,7 +163,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                class="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="http://instagram.com/shrisatya_nidhi"
                                             >
                                                 <i className="fab fa-instagram"></i>{" "}
@@ -171,7 +172,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                class="text-blue-100 hover:text-blue-600 font-semibold block pb-2 text-sm"
+                                                class="text-white hover:text-blue-600 font-semibold block pb-2 text-sm"
                                                 href="https://www.linkedin.com/in/shri-satya-india-059028260"
                                                 rel="noopener noreferrer"
                                                 target="_blank"
@@ -188,11 +189,11 @@ const Footer = () => {
                     <hr className="bg-gray-100" />
                     <div class="flex flex-wrap items-center md:justify-between justify-center">
                         <div class="w-full md:w-4/12 mx-auto text-center">
-                            <div class="text-sm text-blue-100 hover:text-blue-400 font-semibold">
+                            <div class="text-sm text-white hover:text-blue-400 font-semibold">
                                 © <span id="get-current-year">2022 </span>
                                 Shrisatya Multipurpose Nidhi Ltd. | Designed & developed
                                 by{" "}
-                                <a href="http://5techg.com" target="_blank">
+                                <a className="text-white" href="http://5techg.com" target="_blank">
                                     5TechG Lab
                                 </a>
                             </div>

@@ -4,30 +4,15 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { NavLink } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 // import About from "../About/About";
+import './navbar.css'
 
 export default function Example() {
     return (
         <Disclosure as="nav" className="header bg-white fixed-top">
             {({ open }) => (
                 <>
-                    <div className="relative flex  justify-between h-25 mx-2">
-                        <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
-                            {/* Mobile menu button*/}
-                            <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                                <span className="sr-only">Open main menu</span>
-                                {open ? (
-                                    <XIcon
-                                        className="block h-8 w-8"
-                                        aria-hidden="true"
-                                    />
-                                ) : (
-                                    <MenuIcon
-                                        className="block h-8   w-8"
-                                        aria-hidden="true"
-                                    />
-                                )}
-                            </Disclosure.Button>
-                        </div>
+                    <div className="d-flex relative flex h-25  p-4" style={{justifyContent:"space-between" ,backgroundColor:"#4D455D"}} >
+                       
 
                         <div className="flex navbr pt-2">
                             {/* <h1 className="logo flex h-8"> */}
@@ -46,8 +31,9 @@ export default function Example() {
                                 style={{
                                     height: "70px",
                                     margin: "auto",
+                                    borderRadius:"10px",
                                 }}
-                                className=""
+                                className="logo"
                             />
 
                             {/* <NavLink to="/" className="font-bold">
@@ -58,7 +44,7 @@ export default function Example() {
                             </NavLink> */}
                         </div>
 
-                        <div className="flex pr-5">
+                        <div className="flex pr-5 mt-auto" >
                             <nav id="navbar" className="navbar">
                                 <ul>
                                     <li>
