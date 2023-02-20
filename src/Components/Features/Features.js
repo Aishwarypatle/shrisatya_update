@@ -72,7 +72,7 @@ const Features = () => {
                 <div class="container">
                     <div class="d-flex flex-wrap -mx-4 p-3">
                         <div class="rounded-lg w-full md:w-1/2 xl:w-1/4 px-4">
-                            <div class="home-cards bg-white rounded">
+                            <div class="home-cards bg-white rounded-lg">
                                 <img
                                     src="Images/deposit-scheme.png"
                                     alt="image"
