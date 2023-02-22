@@ -5,13 +5,18 @@ import { NavLink } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 // import About from "../About/About";
 import './navbar.css'
+import React from 'react';
 
 export default function Example() {
+   
+
     return (
-        <Disclosure as="nav" className="header bg-white fixed-top">
+
+
+        <Disclosure style={{zIndex:"10"}} as="nav" className="header bg-white fixed-top">
             {({ open }) => (
                 <>
-                    <div className="d-flex relative flex h-25  p-4" style={{justifyContent:"space-between" ,backgroundColor:"#3E54AC"}} >
+                    <div className="d-flex h-25  p-4" style={{justifyContent:"space-between" ,backgroundColor:"#3E54AC"}} >
                        
 
                         <div className="flex navbr pt-2">
@@ -44,7 +49,7 @@ export default function Example() {
                             </NavLink> */}
                         </div>
 
-                        <div className="flex pr-5 mt-auto" >
+                        <div className="pr-5 mt-auto" >
                             <nav id="navbar" className="navbar">
                                 <ul>
                                     <li>
@@ -153,7 +158,7 @@ export default function Example() {
                                                 padding: "10px",
                                             }}
                                         ></i> */}
-                                    <div className="flex navbar px-5">
+                                    <div className=" navbar px-5">
                                         <a  style={{ fontSize: 20}}  href="https://www.facebook.com/profile.php?id=100089145458518&mibextid=ZbWKwL" target="_blank">
                                             <i style={{ color: "#4267B2", fontSize: 30 }} class="fa-brands fa-facebook fa-2xl"></i>
                                         </a>
@@ -186,7 +191,7 @@ export default function Example() {
                     </div> */}
                     {/* </div> */}
 
-                    <Disclosure.Panel className="lg:hidden">
+                    <Disclosure.Panel >
                         <div className="px-2 pt-2 pb-3 space-y-1 bg-blue-500 text-center">
                             <Disclosure.Button>
                                 <div className="flex">
@@ -239,5 +244,12 @@ export default function Example() {
                 </>
             )}
         </Disclosure>
+
+
+        
+  
+
+
+
     );
 }

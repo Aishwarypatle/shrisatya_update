@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <div>
-                <img style={{marginTop: 80, width: "100%"}} src="Images/satya 7.png"/>
+                <img style={{marginTop: '8rem', width: "100%",height:"100%"}} src="Images/satya 7.jpg"/>
             </div>
 
             <div className="about-content my-5">

@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section id="contact" class="contact  bg-gray-100">
             <div>
-                <img style={{marginTop: 80, width: "100%"}} src="Images/Group 120.png"/>
+                <img style={{marginTop: '8rem', width: "100%"}} src="Images/Group 120.jpg"/>
             </div>
             <div class="section-title text-center">
                     <h2
